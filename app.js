@@ -79,10 +79,10 @@ Add a New Project
         },
         {
             type: 'input',
-            name: 'decription',
+            name: 'description',
             message: 'Provide a description of the project (Required)',
-            validate: decriptionInput => {
-                if (decriptionInput) {
+            validate: descriptionInput => {
+                if (descriptionInput) {
                     return true;
                 } else {
                     console.log('Please provide a description of the project!');
